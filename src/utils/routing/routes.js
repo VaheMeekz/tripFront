@@ -1,12 +1,12 @@
-import Admin from "../../components/admin/Admin";
-import {ADMIN_LOGIN_PAGE, ADMIN_PAGE, MERCH_PAGE, POST_DETAIL_PAGE, POST_PAGE} from "./urls";
+import {ADMIN_LOGIN_PAGE, DASHBOARD_PAGE, MERCH_PAGE, POST_DETAIL_PAGE, POST_PAGE} from "./urls";
 import Posts from "../../components/posts/Posts";
 import Detail from "../../components/detail/Detail";
 import Login from "../../components/login/Login";
 import Merch from "../../components/merch/Merch";
+import Dashbord from "../../components/dashbord/Dashbord";
 
 export const isAdminPages = [
-    {id: 1, path: ADMIN_PAGE, name: "Admin", Component: Admin},
+    {id:1,path: DASHBOARD_PAGE,name:"Dashboard",Component:Dashbord},
 ]
 
 export const isNotAdminPages = [

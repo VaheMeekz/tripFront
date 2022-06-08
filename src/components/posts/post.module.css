@@ -1,0 +1,65 @@
+.box {
+    width: 100%;
+    margin-top: 20px;
+    min-height: 100vh;
+    padding-left: 10px;
+}
+
+.tripBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.card{
+    width: 45%;
+    margin: 10px;
+    transition: all .2s ease-in-out;
+    max-height: 600px;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+
+
+.btn{
+    position: absolute !important;
+    bottom: 20px !important;
+}
+.cardImage{
+    width: 100%;
+    height: 50% !important;
+    padding: 2rem;
+    object-fit: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .card{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+.pagBox{
+    display: flex;
+}
+
+.pagItem{
+    padding:5px 10px;
+    background: white;
+    border: 1px solid lightseagreen;
+    border-radius: 50%;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.ActivePagItem{
+    padding:5px 10px;
+    background: lightseagreen;
+    border: 1px solid lightseagreen;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}

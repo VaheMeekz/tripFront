@@ -1,0 +1,50 @@
+/*Add Post*/
+
+.box {
+    margin: 10px;
+}
+
+.inputBox {
+    margin: 20px 0;
+}
+
+.uploadedImage {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+/*Add Post End*/
+/*Post*/
+.postBox{
+    min-height: 100vh !important;
+}
+
+.tableImage {
+    width: 50px;
+    height: 50px;
+}
+
+.pagBox{
+    display: flex;
+}
+
+.pagItem{
+    padding:5px 10px;
+    background: white;
+    border: 1px solid lightseagreen;
+    border-radius: 50%;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.ActivePagItem{
+    padding:5px 10px;
+    background: lightseagreen;
+    border: 1px solid lightseagreen;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+/*Post End*/
